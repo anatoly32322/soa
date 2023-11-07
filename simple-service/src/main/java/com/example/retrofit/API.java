@@ -4,9 +4,10 @@ import com.example.models.Person;
 import retrofit2.Call;
 import retrofit2.http.GET;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public interface API {
     @GET("persons/")
-    Call<List<Person>> getPersons();
+    Call<ArrayList<Person>> getPersons();
 }
