@@ -6,5 +6,6 @@
 /Users/anatoly32322/ITMO/SOA/soa-lab-2-serv-2/simple-service/src/main/java/com/example/models/Country.java
 /Users/anatoly32322/ITMO/SOA/soa-lab-2-serv-2/simple-service/src/main/java/com/example/retrofit/PersonController.java
 /Users/anatoly32322/ITMO/SOA/soa-lab-2-serv-2/simple-service/src/main/java/com/example/retrofit/RetrofitClient.java
+/Users/anatoly32322/ITMO/SOA/soa-lab-2-serv-2/simple-service/src/main/java/com/example/retrofit/PersonControllerWithSSL.java
 /Users/anatoly32322/ITMO/SOA/soa-lab-2-serv-2/simple-service/src/main/java/com/example/retrofit/API.java
 /Users/anatoly32322/ITMO/SOA/soa-lab-2-serv-2/simple-service/src/main/java/com/example/models/Coordinates.java
