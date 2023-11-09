@@ -14,9 +14,9 @@ public class PersonController {
     public List<Person> start() throws IOException {
         API api = ServiceGenerator.createService(API.class);
 
-        Call<PersonList> call = api.getPersons();
-        Response<PersonList> resp = call.execute();
+        Call<List<Person>> call = api.getPersons();
+        Response<List<Person>> resp = call.execute();
         assert resp.body() != null;
-        return resp.body().getPersonList();
+        return resp.body();
     }
 }
