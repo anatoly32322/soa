@@ -17,7 +17,7 @@ import java.util.List;
 import java.util.Objects;
 
 
-@Path("")
+@Path("/demography")
 public class MyResource {
 
     //    @Path("/nationality/{nationality}/hair-color/{hairColor}")

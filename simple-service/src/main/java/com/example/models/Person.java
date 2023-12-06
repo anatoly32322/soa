@@ -1,5 +1,6 @@
 package com.example.models;
 
+import jakarta.json.bind.annotation.JsonbDateFormat;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
@@ -27,6 +28,7 @@ public class Person {
     private Coordinates coordinates;
 
     @Generated
+    @JsonbDateFormat(value = "yyyy-MM-dd")
     private Date creationDate;
 
     @NotNull
@@ -34,6 +36,7 @@ public class Person {
     private Long height;
 
     @NotNull
+    @JsonbDateFormat(value = "yyyy-MM-dd'T'HH:mm:ss.SSSZ")
     private ZonedDateTime birthday;
 
     @NotNull

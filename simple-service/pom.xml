@@ -7,7 +7,7 @@
     <groupId>com.example</groupId>
     <artifactId>demography</artifactId>
     <packaging>war</packaging>
-    <version>1</version>
+    <version>2.0</version>
     <name>simple-service</name>
 
 <!--    <properties>-->

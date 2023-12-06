@@ -7,6 +7,7 @@ import retrofit2.Call;
 import retrofit2.Response;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 public class PersonController {
@@ -16,7 +17,9 @@ public class PersonController {
 
         Call<List<Person>> call = api.getPersons();
         Response<List<Person>> resp = call.execute();
-        assert resp.body() != null;
+        if (resp.body() == null) {
+            return new ArrayList<>();
+        }
         return resp.body();
     }
 }

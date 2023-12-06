@@ -10,9 +10,9 @@ import java.util.List;
 
 
 public interface API {
-    @GET("/persons/ping")
+    @GET("/api/persons/ping")
     Call<PercentWrapper> getPing();
 
-    @GET("/persons/all")
+    @GET("/api/persons/all")
     Call<List<Person>> getPersons();
 }

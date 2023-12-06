@@ -1,4 +1,14 @@
+com/example/api/API.class
+com/example/HelloApplication.class
+com/example/CORSFilter.class
 com/example/retrofit/ServiceGenerator.class
 com/example/wrapper/PercentWrapper.class
 com/example/retrofit/ServiceGenerator$1.class
+com/example/models/Person.class
+com/example/models/Location.class
+com/example/models/Country.class
+com/example/resource/MyResource.class
 com/example/models/PersonList.class
+com/example/wrapper/CountWrapper.class
+com/example/models/Coordinates.class
+com/example/retrofit/PersonController.class

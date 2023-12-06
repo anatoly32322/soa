@@ -10,7 +10,7 @@ import java.time.ZonedDateTime;
 
 public class ServiceGenerator {
 
-    private static final String BASE_URL = "http://localhost:8080/";
+    private static final String BASE_URL = "http://localhost:8080/demography-1.0/";
 
     private static Gson gson = new GsonBuilder()
                     .registerTypeAdapter(ZonedDateTime.class, new JsonDeserializer<ZonedDateTime>() {
